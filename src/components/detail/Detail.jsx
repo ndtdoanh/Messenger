@@ -17,7 +17,13 @@ const Detail = () => {
         </div>
         <div className="option">
           <div className="title">
-            <span>Privacy % help</span>
+            <span>Chat Settings</span>
+            <img src="./arrowUp.png" alt="" />
+          </div>
+        </div>
+        <div className="option">
+          <div className="title">
+            <span>Privacy & help</span>
             <img src="./arrowUp.png" alt="" />
           </div>
         </div>
@@ -35,7 +41,7 @@ const Detail = () => {
                 />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon" />
             </div>
             <div className="photoItem">
               <div className="photoDetail">
@@ -45,7 +51,17 @@ const Detail = () => {
                 />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="./download.png" alt="" />
+              <img src="./download.png" alt="" className="icon" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcu5918cRdf6YiRN4D7ULHs3TpUu3SQ5Yqtw&s"
+                  alt=""
+                />
+                <span>photo_2024_2.png</span>
+              </div>
+              <img src="./download.png" alt="" className="icon" />
             </div>
           </div>
         </div>
@@ -56,6 +72,7 @@ const Detail = () => {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">Logout</button>
       </div>
     </div>
   );
